@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Aliens: Fireteam Elite",
+    "night": "Sunday",
+    "type": "co-op",
+    "priceEUR": 5.99,
+    "deal": "-80% Steam Summer Encore",
+    "dealURL": "https://store.steampowered.com/app/1549970",
+    "tags": ["horde", "action", "sci-fi"]
+  },
+  {
+    "title": "The Long Dark",
+    "night": "Monday",
+    "type": "solo",
+    "priceEUR": 17.49,
+    "deal": "-50% Steam Encore",
+    "dealURL": "https://store.steampowered.com/app/305620",
+    "tags": ["survival", "exploration", "chill"]
+  },
+  {
+    "title": "Star Wars Jedi: Fallen Order",
+    "night": "Thursday",
+    "type": "solo",
+    "priceEUR": 3.99,
+    "deal": "-90% (Steam historical low)",
+    "dealURL": "https://store.steampowered.com/app/1172380",
+    "tags": ["action", "story", "lightsabers"]
+  },
+  { "title": "Resident Evil 2 Remake", "type": "solo", "priceEUR": 9.99, "deal": "-75%", "tags": ["horror", "zombies"] },
+  { "title": "Prey (2017)", "type": "solo", "priceEUR": 5.99, "deal": "-80%", "tags": ["sci-fi", "immersive sim"] },
+  { "title": "Metro Exodus", "type": "solo", "priceEUR": 5.99, "deal": "-80%", "tags": ["post-apoc", "shooter"] },
+  { "title": "Sniper Elite 4", "type": "solo", "priceEUR": 5.99, "deal": "-90%", "tags": ["stealth", "sniping"] }
+]

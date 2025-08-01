@@ -1,0 +1,30 @@
+name: Pull roster from RSS
+on:
+  schedule:
+    - cron: '20 11 * * SUN'        # runs Sun 11:20 Dublin
+  workflow_dispatch:               # gives you the “Run workflow” button
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    env:
+      FEED: ${{ vars.ROSTER_RSS }}
+      TZ:   ${{ vars.TZ }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install --quiet feedparser html2text
+      - run: |
+          python <<'PY'
+          import os, feedparser, html2text, re, pathlib
+          feed = feedparser.parse(os.environ['FEED'])
+          body_html = feed.entries[0].description
+          body_txt  = html2text.html2text(body_html)
+          m = re.search(r'\{[\\s\\S]*\}', body_txt)
+          pathlib.Path('data/rosters').mkdir(parents=True, exist_ok=True)
+          pathlib.Path('data/rosters/latest.json').write_text(m.group(0).strip())
+          PY
+      - run: |
+          git config user.name  roster-bot
+          git config user.email bot@example.com
+          git add data/rosters/latest.json
+          git diff --cached --quiet || git commit -m "Auto roster ${{ github.run_id }}"
+          git push

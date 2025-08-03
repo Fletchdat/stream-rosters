@@ -1,0 +1,27 @@
+name: Parse JSON from Issue Comment
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    if: github.event.issue.title == 'Roster Inbox'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write comment to latest.json
+        run: |
+          echo "${{ github.event.comment.body }}" > data/rosters/latest.json
+
+      - name: Commit and push
+        run: |
+          git config user.name  roster-bot
+          git config user.email bot@example.com
+          git add data/rosters/latest.json
+          git diff --cached --quiet || git commit -m "Update roster from comment"
+          git push

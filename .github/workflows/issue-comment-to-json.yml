@@ -28,7 +28,11 @@ jobs:
           offset=$(date --date="$COMMENT_TIME" +%w)
           sunday=$(date --date="$COMMENT_TIME - $offset days" +%F)
           mkdir -p data/rosters
-          echo "${{ github.event.comment.body }}" > "data/rosters/${sunday}.json"
+
+          cat <<EOF > "data/rosters/${sunday}.json"
+${{ github.event.comment.body }}
+EOF
+
           cp "data/rosters/${sunday}.json" data/rosters/latest.json
 
       - name: Commit and push

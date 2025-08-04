@@ -16,9 +16,12 @@ jobs:
 
       - name: Capture comment and created_at to temp
         shell: bash
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          COMMENT_TIMESTAMP: ${{ github.event.comment.created_at }}
         run: |
-          echo "${{ github.event.comment.body }}" > comment.json
-          echo "${{ github.event.comment.created_at }}" > timestamp.txt
+          echo "$COMMENT_BODY" > comment.json
+          echo "$COMMENT_TIMESTAMP" > timestamp.txt
 
       - name: Parse timestamp and write roster files
         shell: bash

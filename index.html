@@ -54,19 +54,23 @@
 
       const today = new Date();
       const offset = today.getDay(); // 0=Sun
-      const sunday = new Date(today); sunday.setDate(today.getDate()-offset);
-      const defaultDate = new URLSearchParams(location.search).get('date') || sunday.toISOString().slice(0,10);
+      const sunday = new Date(today); sunday.setDate(today.getDate() - offset);
+
+      // ✅ FIX: Use local date format to avoid UTC mismatch
+      const formatDate = d => d.toLocaleDateString('en-CA'); // YYYY-MM-DD
+      const defaultDate = new URLSearchParams(location.search).get('date') || formatDate(sunday);
+
       const url = `https://${USER}.github.io/${REPO}/data/rosters/${defaultDate}.json`;
 
-      const cardsEl   = document.getElementById('cards');
-      const tpl       = document.getElementById('card-template');
-      let roster      = [];
+      const cardsEl = document.getElementById('cards');
+      const tpl     = document.getElementById('card-template');
+      let roster    = [];
 
-      async function load(){
-        try{
-          roster = await fetch(url).then(r=>r.json());
+      async function load() {
+        try {
+          roster = await fetch(url).then(r => r.json());
           render();
-        }catch(e){
+        } catch (e) {
           console.error(e);
           cardsEl.innerHTML = `<p class='col-span-full text-center text-red-400'>Roster for ${defaultDate} not found.</p>`;
         }
@@ -76,30 +80,33 @@
       const soloChk  = document.getElementById('filter-solo');
       const coopChk  = document.getElementById('filter-coop');
       const searchIn = document.getElementById('search');
-      [soloChk,coopChk,searchIn].forEach(el=>el.addEventListener('input',render));
+      [soloChk, coopChk, searchIn].forEach(el => el.addEventListener('input', render));
 
-      function passesFilters(g){
-        const typeOk = (g.type==='solo'&&soloChk.checked)||(g.type==='co-op'&&coopChk.checked);
+      function passesFilters(g) {
+        const typeOk = (g.type === 'solo' && soloChk.checked) || (g.type === 'co-op' && coopChk.checked);
         const term = searchIn.value.trim().toLowerCase();
-        const text = `${g.title} ${(g.tags||[]).join(' ')}`.toLowerCase();
+        const text = `${g.title} ${(g.tags || []).join(' ')}`.toLowerCase();
         return typeOk && (!term || text.includes(term));
       }
 
-      function render(){
-        cardsEl.innerHTML='';
-        roster.filter(passesFilters).forEach(g=>{
+      function render() {
+        cardsEl.innerHTML = '';
+        roster.filter(passesFilters).forEach(g => {
           const c = tpl.content.firstElementChild.cloneNode(true);
           c.querySelector('.title').textContent = g.title;
-          c.querySelector('.night').textContent = g.night? `${g.night} • ${g.type}`:`Bench • ${g.type}`;
-          c.querySelector('.deal').textContent  = `${g.deal} • €${g.priceEUR}`;
-          c.querySelector('a').href             = g.dealURL||'#';
+          c.querySelector('.night').textContent = g.night ? `${g.night} • ${g.type}` : `Bench • ${g.type}`;
+          c.querySelector('.deal').textContent = `${g.deal} • €${g.priceEUR}`;
+          c.querySelector('a').href = g.dealURL || '#';
+
           // tags
           const box = c.querySelector('.tag-box');
-          (g.tags||[]).forEach(t=>{
-            const s=document.createElement('span');
-            s.className='tag text-[10px] px-2 py-[2px] rounded-full';
-            s.textContent=t; box.appendChild(s);
+          (g.tags || []).forEach(t => {
+            const s = document.createElement('span');
+            s.className = 'tag text-[10px] px-2 py-[2px] rounded-full';
+            s.textContent = t;
+            box.appendChild(s);
           });
+
           cardsEl.appendChild(c);
         });
       }

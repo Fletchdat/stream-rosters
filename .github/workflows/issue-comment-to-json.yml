@@ -14,14 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-- name: Debug comment metadata
-  run: |
-    echo "::notice:: Raw created_at: ${{ github.event.comment.created_at }}"
-    echo "::notice:: Raw updated_at: ${{ github.event.comment.updated_at }}"
-    echo "::notice:: Comment body preview (first 5 lines):"
-    cat <<EOF | head -n 5
-${{ github.event.comment.body }}
-EOF
+    - name: Debug comment metadata
+      run: |
+        echo "::notice:: Raw created_at: ${{ github.event.comment.created_at }}"
+        echo "::notice:: Raw updated_at: ${{ github.event.comment.updated_at }}"
+        echo "::notice:: Comment body preview (first 5 lines):"
+        echo "${{ github.event.comment.body }}" | head -n 5
 
       - name: Write comment to dated + latest.json with debug
         run: |

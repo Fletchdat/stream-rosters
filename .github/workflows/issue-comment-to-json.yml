@@ -25,10 +25,13 @@ jobs:
         shell: bash
         env:
           COMMENT_BODY: ${{ github.event.comment.body }}
-          COMMENT_TIME: ${{ github.event.comment.created_at }}
+          COMMENT_TIME_RAW: ${{ github.event.comment.created_at }}
         run: |
-          offset=$(date --date="$COMMENT_TIME" +%w)
-          sunday=$(date --date="$COMMENT_TIME - $offset days" +%F)
+          # Clean timestamp to remove 'T' and 'Z' (make it parseable by `date`)
+          COMMENT_TIME=$(echo "$COMMENT_TIME_RAW" | sed 's/T/ /; s/Z//')
+          offset=$(date -d "$COMMENT_TIME" +%w)
+          sunday=$(date -d "$COMMENT_TIME - $offset days" +%F)
+
           mkdir -p data/rosters
           printf '%s\n' "$COMMENT_BODY" > "data/rosters/${sunday}.json"
           cp "data/rosters/${sunday}.json" data/rosters/latest.json

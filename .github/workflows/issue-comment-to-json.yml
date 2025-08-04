@@ -24,8 +24,8 @@ jobs:
       - name: Write comment to dated + latest.json with debug
         run: |
           COMMENT_TIME="${{ github.event.comment.created_at }}"
-          offset=$(date -d "$COMMENT_TIME" +%w)
-          sunday=$(date -d "$COMMENT_TIME - $offset days" +%F)
+          offset=$(date --date="$COMMENT_TIME" +%w)
+          sunday=$(date --date="$COMMENT_TIME - $offset days" +%F)
           mkdir -p data/rosters
           echo "${{ github.event.comment.body }}" > "data/rosters/${sunday}.json"
           cp "data/rosters/${sunday}.json" data/rosters/latest.json

@@ -22,6 +22,7 @@ jobs:
           echo "${{ github.event.comment.body }}" | head -n 5
 
       - name: Write comment to dated + latest.json with debug
+        shell: bash
         run: |
           COMMENT_TIME="${{ github.event.comment.created_at }}"
           offset=$(date --date="$COMMENT_TIME" +%w)

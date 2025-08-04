@@ -14,28 +14,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Debug comment metadata
-        run: |
-          echo "::notice:: Raw created_at: ${{ github.event.comment.created_at }}"
-          echo "::notice:: Raw updated_at: ${{ github.event.comment.updated_at }}"
-          echo "::notice:: Comment body preview (first 5 lines):"
-          echo "${{ github.event.comment.body }}" | head -n 5
-
-      - name: Write comment to dated + latest.json with debug
+      - name: Capture comment and created_at to temp
         shell: bash
-        env:
-          COMMENT_BODY: ${{ github.event.comment.body }}
-          COMMENT_TIME_RAW: ${{ github.event.comment.created_at }}
         run: |
-          # Clean timestamp to remove 'T' and 'Z' (make it parseable by `date`)
-          COMMENT_TIME=$(echo "$COMMENT_TIME_RAW" | sed 's/T/ /; s/Z//')
+          echo "${{ github.event.comment.body }}" > comment.json
+          echo "${{ github.event.comment.created_at }}" > timestamp.txt
+
+      - name: Parse timestamp and write roster files
+        shell: bash
+        run: |
+          COMMENT_TIME=$(sed 's/T/ /; s/Z//' timestamp.txt)
           offset=$(date -d "$COMMENT_TIME" +%w)
           sunday=$(date -d "$COMMENT_TIME - $offset days" +%F)
 
           mkdir -p data/rosters
-          # FIX: Replaced `printf` with `echo` for safer handling of comment body
-          echo "$COMMENT_BODY" > "data/rosters/${sunday}.json"
-          cp "data/rosters/${sunday}.json" data/rosters/latest.json
+          cp comment.json "data/rosters/${sunday}.json"
+          cp comment.json data/rosters/latest.json
 
       - name: Commit and push
         run: |

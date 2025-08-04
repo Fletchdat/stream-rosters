@@ -33,7 +33,8 @@ jobs:
           sunday=$(date -d "$COMMENT_TIME - $offset days" +%F)
 
           mkdir -p data/rosters
-          printf '%s\n' "$COMMENT_BODY" > "data/rosters/${sunday}.json"
+          # FIX: Replaced `printf` with `echo` for safer handling of comment body
+          echo "$COMMENT_BODY" > "data/rosters/${sunday}.json"
           cp "data/rosters/${sunday}.json" data/rosters/latest.json
 
       - name: Commit and push

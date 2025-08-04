@@ -13,21 +13,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Write comment to latest.json
+
+      - name: Debug comment metadata
         run: |
-          echo "${{ github.event.comment.body }}" > data/rosters/latest.json
-      - name: Write comment to dated file
+          echo "::notice:: Raw created_at: ${{ github.event.comment.created_at }}"
+          echo "::notice:: Raw updated_at: ${{ github.event.comment.updated_at }}"
+          echo "::notice:: Comment body preview:"
+          echo "${{ github.event.comment.body }}" | head -n 5
+
+      - name: Write comment to dated + latest.json with debug
         run: |
           COMMENT_TIME="${{ github.event.comment.created_at }}"
           offset=$(date -d "$COMMENT_TIME" +%w)
           sunday=$(date -d "$COMMENT_TIME - $offset days" +%F)
+
+          echo "::notice:: Parsed COMMENT_TIME=$COMMENT_TIME"
+          echo "::notice:: Calculated Sunday=$sunday (offset=$offset)"
+
           mkdir -p data/rosters
-          printf '%s\n' "${{ github.event.comment.body }}" > "data/rosters/${sunday}.json"
+          echo "${{ github.event.comment.body }}" > "data/rosters/${sunday}.json"
           cp "data/rosters/${sunday}.json" data/rosters/latest.json
+
+          echo "::notice:: Files in data/rosters:"
+          ls -lh data/rosters
+
       - name: Commit and push
         run: |
           git config user.name  roster-bot
           git config user.email bot@example.com
           git add data/rosters/*.json
+          git status
           git diff --cached --quiet || git commit -m "Update roster from comment"
           git push

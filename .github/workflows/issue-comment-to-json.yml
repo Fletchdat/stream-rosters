@@ -23,16 +23,14 @@ jobs:
 
       - name: Write comment to dated + latest.json with debug
         shell: bash
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          COMMENT_TIME: ${{ github.event.comment.created_at }}
         run: |
-          COMMENT_TIME="${{ github.event.comment.created_at }}"
           offset=$(date --date="$COMMENT_TIME" +%w)
           sunday=$(date --date="$COMMENT_TIME - $offset days" +%F)
           mkdir -p data/rosters
-
-          cat <<EOF > "data/rosters/${sunday}.json"
-${{ github.event.comment.body }}
-EOF
-
+          printf '%s\n' "$COMMENT_BODY" > "data/rosters/${sunday}.json"
           cp "data/rosters/${sunday}.json" data/rosters/latest.json
 
       - name: Commit and push

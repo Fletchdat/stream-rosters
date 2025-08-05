@@ -1,20 +1,56 @@
 [
   {
-    "title": "Deep Rock Galactic",
-    "night": "Saturday",
-    "type": "co-op",
-    "deal": "Steam",
-    "priceEUR": 9.99,
-    "dealURL": "https://store.steampowered.com/app/548430",
-    "tags": ["mining", "aliens", "FPS"]
+    "title": "Lethal Company",
+    "night": "Sunday",
+    "type": "co‑op",
+    "priceEUR": 10.0,
+    "deal": "Steam Early Access",
+    "dealURL": "https://store.steampowered.com/app/1966720/Lethal_Company/",
+    "tags": ["horror", "survival", "co‑op", "scrap"]
   },
   {
-    "title": "The Long Dark",
-    "night": "Wednesday",
+    "title": "Outer Terror",
+    "night": "Bench",
+    "type": "co‑op",
+    "priceEUR": 15.0,
+    "deal": "Launch deal",
+    "dealURL": "https://store.steampowered.com/app/2322020/Outer_Terror/",
+    "tags": ["bullet‑hell", "horror", "co‑op"]
+  },
+  {
+    "title": "The Cabin Factory",
+    "night": "Monday",
     "type": "solo",
-    "deal": "Humble",
-    "priceEUR": 5.49,
-    "dealURL": "https://www.humblebundle.com/store/the-long-dark",
-    "tags": ["survival", "story-rich", "winter"]
+    "priceEUR": 3.0,
+    "deal": "Itch.io/Steam indie",
+    "dealURL": "",
+    "tags": ["psychological horror", "solo", "short"]
+  },
+  {
+    "title": "Hollow Knight",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 15.0,
+    "deal": "Base game",
+    "dealURL": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+    "tags": ["metroidvania", "action", "story‑rich"]
+  },
+  {
+    "title": "We Were Here Together",
+    "night": "Thursday",
+    "type": "co‑op",
+    "priceEUR": 10.0,
+    "deal": "Steam sale",
+    "dealURL": "https://store.steampowered.com/app/735970/We_Were_Here_Together/",
+    "tags": ["asymmetric", "puzzle", "voice‑only", "co‑op"]
+  },
+  {
+    "title": "Distance",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 2.5,
+    "deal": "Sale",
+    "dealURL": "https://store.steampowered.com/app/233610/Distance/",
+    "tags": ["sci‑fi", "racing", "horror"]
   }
 ]

@@ -1,44 +1,20 @@
-name: Parse JSON from Issue Comment
-
-on:
-  issue_comment:
-    types: [created]
-
-permissions:
-  contents: write
-
-jobs:
-  convert:
-    if: github.event.issue.title == 'Roster Inbox'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Capture comment and created_at to temp
-        shell: bash
-        env:
-          COMMENT_BODY: ${{ github.event.comment.body }}
-          COMMENT_TIMESTAMP: ${{ github.event.comment.created_at }}
-        run: |
-          echo "$COMMENT_BODY" > comment.json
-          echo "$COMMENT_TIMESTAMP" > timestamp.txt
-
-      - name: Parse timestamp and write roster files
-        shell: bash
-        run: |
-          COMMENT_TIME=$(sed 's/T/ /; s/Z//' timestamp.txt)
-          offset=$(date -d "$COMMENT_TIME" +%w)
-          sunday=$(date -d "$COMMENT_TIME - $offset days" +%F)
-
-          mkdir -p data/rosters
-          cp comment.json "data/rosters/${sunday}.json"
-          cp comment.json data/rosters/latest.json
-
-      - name: Commit and push
-        run: |
-          git config user.name "roster-bot"
-          git config user.email "bot@example.com"
-          git add data/rosters/*.json
-          git diff --cached --quiet || git commit -m "Update roster from comment"
-          git push
-
+[
+  {
+    "title": "Deep Rock Galactic",
+    "night": "Saturday",
+    "type": "co-op",
+    "deal": "Steam",
+    "priceEUR": 9.99,
+    "dealURL": "https://store.steampowered.com/app/548430",
+    "tags": ["mining", "aliens", "FPS"]
+  },
+  {
+    "title": "The Long Dark",
+    "night": "Wednesday",
+    "type": "solo",
+    "deal": "Humble",
+    "priceEUR": 5.49,
+    "dealURL": "https://www.humblebundle.com/store/the-long-dark",
+    "tags": ["survival", "story-rich", "winter"]
+  }
+]

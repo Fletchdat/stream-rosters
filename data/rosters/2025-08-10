@@ -1,0 +1,65 @@
+[
+{
+"title": "BioShock Infinite",
+"night": "Sunday",
+"type": "solo",
+"priceEUR": 6.9,
+"deal": "DreamGame -75% (via ITAD, Aug 5, 2025)",
+"dealURL": "https://isthereanydeal.com/game/bioshockinfinite/history/",
+"tags": ["story shooter", "cinematic", "singleplayer", "controller-or-mkb"]
+},
+{
+"title": "Stories Untold",
+"night": "Monday",
+"type": "solo",
+"priceEUR": 1.95,
+"deal": "Steam -80% (sale roundup Aug 8, 2025)",
+"dealURL": "https://store.steampowered.com/app/558420/Stories_Untold/",
+"tags": ["short (2–3h)", "retro horror", "narrative", "low-twitch"]
+},
+{
+"title": "The Past Within",
+"night": "Thursday",
+"type": "co-op",
+"priceEUR": 1.85,
+"deal": "DLCompare from $1.99 (Steam/GOG keys)",
+"dealURL": "https://www.dlcompare.com/games/100014699/buy-the-past-within-steam-key",
+"tags": ["asym co-op", "puzzle", "voice-comm heavy", "short (1–2h)"]
+},
+{
+"title": "Alien: Isolation",
+"night": "Alternate",
+"type": "solo",
+"priceEUR": 7.3,
+"deal": "Epic Games -80% (Aug 7, 2025)",
+"dealURL": "https://isthereanydeal.com/game/alienisolation/info/",
+"tags": ["survival horror", "stealth", "classic", "no co-op"]
+},
+{
+"title": "SIGNALIS",
+"night": "Alternate",
+"type": "solo",
+"priceEUR": 18.83,
+"deal": "AllKeyShop listing ~€18.83",
+"dealURL": "https://www.allkeyshop.com/blog/buy-signalis-cd-key-compare-prices/",
+"tags": ["survival horror", "retro sci-fi", "story-rich"]
+},
+{
+"title": "Paratopic",
+"night": "Alternate",
+"type": "solo",
+"priceEUR": 0.83,
+"deal": "K4G -83% (EU key)",
+"dealURL": "https://k4g.com/product/paratopic-steam-global-cd-key-FAD52251?currency=EUR",
+"tags": ["experimental horror", "short (~45m)", "PSX vibe"]
+},
+{
+"title": "We Were Here Together",
+"night": "Alternate (if co-op needed)",
+"type": "co-op",
+"priceEUR": 5.45,
+"deal": "AllKeyShop/Eneba ~€5.45",
+"dealURL": "https://www.allkeyshop.com/blog/en-us/buy-we-were-here-together-cd-key-compare-prices/",
+"tags": ["asym co-op", "escape-room puzzles", "voice-comm"]
+}
+]

@@ -1,37 +1,47 @@
 [
-{
-"title": "SIGNALIS",
-"price": "€19.99",
-"platform": "Steam",
-"slot": "Sunday Flagship",
-"notes": "Story-rich retro survival horror; RE-style pacing."
-},
-{
-"title": "Stories Untold",
-"price": "≈€10 (£8.50)",
-"platform": "Steam",
-"slot": "Monday Short",
-"notes": "2–3h experimental retro tech-horror anthology."
-},
-{
-"title": "The Past Within",
-"price": "€3.59 (-40%, until Sept 1)",
-"platform": "Steam",
-"slot": "Thursday Puzzle/Q&A",
-"notes": "Asym co-op puzzle; good for Discord interaction."
-},
-{
-"title": "Lethal Company",
-"price": "€9.75",
-"platform": "Steam",
-"slot": "Backup (Community Night)",
-"notes": "4-player co-op chaos; use if flipping to community night."
-},
-{
-"title": "Resident Evil 7: Biohazard",
-"price": "≈€7.99 (sale, ends Aug 24)",
-"platform": "Steam",
-"slot": "Swap-in / Fallback",
-"notes": "Classic survival-horror; great flagship alternative."
-}
+  {
+    "title": "SIGNALIS",
+    "night": "Sunday",
+    "type": "solo",
+    "priceEUR": 18.83,
+    "deal": "AllKeyShop listing ~€18.83",
+    "dealURL": "https://www.allkeyshop.com/blog/buy-signalis-cd-key-compare-prices/",
+    "tags": ["survival horror", "retro sci-fi", "story-rich"]
+  },
+  {
+    "title": "Stories Untold",
+    "night": "Monday",
+    "type": "solo",
+    "priceEUR": 10.00,
+    "deal": "Steam price ~£8.50 (≈€10)",
+    "dealURL": "https://store.steampowered.com/app/558420/Stories_Untold/",
+    "tags": ["short", "experimental", "text adventure", "horror"]
+  },
+  {
+    "title": "The Past Within",
+    "night": "Thursday",
+    "type": "co-op",
+    "priceEUR": 3.59,
+    "deal": "Steam -40% (promo ends ~Sept 1)",
+    "dealURL": "https://store.steampowered.com/app/1519980/The_Past_Within/",
+    "tags": ["asym co-op", "puzzle", "short"]
+  },
+  {
+    "title": "Lethal Company",
+    "night": "Bench",
+    "type": "co-op",
+    "priceEUR": 9.75,
+    "deal": "Steam standard price",
+    "dealURL": "https://store.steampowered.com/app/1966720/Lethal_Company/",
+    "tags": ["co-op", "horror", "comedy", "community-night"]
+  },
+  {
+    "title": "Resident Evil 7: Biohazard",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 7.99,
+    "deal": "Sale price (regional; ends Aug 24)",
+    "dealURL": "https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard/",
+    "tags": ["survival horror", "first-person", "flagship-alt"]
+  }
 ]

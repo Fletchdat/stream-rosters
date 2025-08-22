@@ -1,0 +1,37 @@
+[
+{
+"title": "SIGNALIS",
+"price": "€19.99",
+"platform": "Steam",
+"slot": "Sunday Flagship",
+"notes": "Story-rich retro survival horror; RE-style pacing."
+},
+{
+"title": "Stories Untold",
+"price": "≈€10 (£8.50)",
+"platform": "Steam",
+"slot": "Monday Short",
+"notes": "2–3h experimental retro tech-horror anthology."
+},
+{
+"title": "The Past Within",
+"price": "€3.59 (-40%, until Sept 1)",
+"platform": "Steam",
+"slot": "Thursday Puzzle/Q&A",
+"notes": "Asym co-op puzzle; good for Discord interaction."
+},
+{
+"title": "Lethal Company",
+"price": "€9.75",
+"platform": "Steam",
+"slot": "Backup (Community Night)",
+"notes": "4-player co-op chaos; use if flipping to community night."
+},
+{
+"title": "Resident Evil 7: Biohazard",
+"price": "≈€7.99 (sale, ends Aug 24)",
+"platform": "Steam",
+"slot": "Swap-in / Fallback",
+"notes": "Classic survival-horror; great flagship alternative."
+}
+]

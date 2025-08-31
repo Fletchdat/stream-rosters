@@ -20,13 +20,63 @@
 "tags": ["survival", "chill", "short-play"]
 },
 {
-"title": "The Past Within",
-"night": "Thursday",
-"type": "co-op",
-"priceEUR": 9.99,
-"deal": "Steam listing €9.99",
-"dealURL": "https://store.steampowered.com/app/1515210/The_Past_Within/
+"title": "Control Ultimate Edition",
+"night": "Sunday",
+"type": "solo",
+"priceEUR": 5.06,
+"deal": "Steam sale €5.06",
+"dealURL": "https://store.steampowered.com
 ",
-"tags": ["puzzle", "asym co-op", "communication-heavy"]
+"tags": ["story-rich", "horror-action", "third-person shooter"]
+},
+{
+"title": "Tormented Souls",
+"night": "Monday",
+"type": "solo",
+"priceEUR": 1.99,
+"deal": "Steam daily deal €1.99",
+"dealURL": "https://store.steampowered.com/app/1367590
+",
+"tags": ["survival-horror", "puzzle", "story-rich"]
+},
+{
+"title": "Look Outside",
+"night": "Thursday",
+"type": "solo",
+"priceEUR": 9.99,
+"deal": "Steam €9.99",
+"dealURL": "https://store.steampowered.com/app/3373660
+",
+"tags": ["survival-horror", "turn-based-rpg", "cosmic-horror"]
+},
+{
+"title": "Alan Wake’s American Nightmare",
+"night": "Bench",
+"type": "solo",
+"priceEUR": 0.89,
+"deal": "Steam sale €0.89",
+"dealURL": "https://store.steampowered.com
+",
+"tags": ["story-rich", "horror-action", "psychological"]
+},
+{
+"title": "The Cabin Factory",
+"night": "Bench",
+"type": "solo",
+"priceEUR": 2.99,
+"deal": "Steam €2.99",
+"dealURL": "https://store.steampowered.com
+",
+"tags": ["psychological-horror", "minimalist", "atmospheric"]
+},
+{
+"title": "Janitor Bleeds",
+"night": "Bench",
+"type": "solo",
+"priceEUR": 4.00,
+"deal": "Steam €4.00",
+"dealURL": "https://store.steampowered.com/app/1786750
+",
+"tags": ["horror", "exploration", "atmospheric"]
 }
 ]

@@ -23,7 +23,7 @@
 "type": "solo",
 "priceEUR": 5.06,
 "deal": "Steam sale €5.06",
-"dealURL": "https://store.steampowered.com",
+"dealURL": "https://store.steampowered.com/agecheck/app/870780/",
 "tags": ["story-rich", "horror-action", "third-person shooter"]
 },
 {
@@ -50,7 +50,7 @@
 "type": "solo",
 "priceEUR": 0.89,
 "deal": "Steam sale €0.89",
-"dealURL": "https://store.steampowered.com",
+"dealURL": "https://store.steampowered.com/app/202750/Alan_Wakes_American_Nightmare/",
 "tags": ["story-rich", "horror-action", "psychological"]
 },
 {
@@ -59,7 +59,7 @@
 "type": "solo",
 "priceEUR": 2.99,
 "deal": "Steam €2.99",
-"dealURL": "https://store.steampowered.com",
+"dealURL": "https://store.steampowered.com/app/3311740/The_Cabin_Factory/",
 "tags": ["psychological-horror", "minimalist", "atmospheric"]
 },
 {
@@ -68,7 +68,7 @@
 "type": "solo",
 "priceEUR": 4.00,
 "deal": "Steam €4.00",
-"dealURL": "https://store.steampowered.com/app/1786750",
+"dealURL": "https://store.steampowered.com/app/1552310/JANITOR_BLEEDS/",
 "tags": ["horror", "exploration", "atmospheric"]
 }
 ]

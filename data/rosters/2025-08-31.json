@@ -1,0 +1,32 @@
+[
+{
+"title": "Martha Is Dead",
+"night": "Sunday",
+"type": "solo",
+"priceEUR": 9.89,
+"deal": "Steam discount €9.89",
+"dealURL": "https://store.steampowered.com/app/515960/Martha_Is_Dead/
+",
+"tags": ["psychological horror", "story-rich", "cinematic"]
+},
+{
+"title": "Shelter 2",
+"night": "Monday",
+"type": "solo",
+"priceEUR": 4.99,
+"deal": "Steam listing €4.99",
+"dealURL": "https://store.steampowered.com/app/275100/Shelter_2/
+",
+"tags": ["survival", "chill", "short-play"]
+},
+{
+"title": "The Past Within",
+"night": "Thursday",
+"type": "co-op",
+"priceEUR": 9.99,
+"deal": "Steam listing €9.99",
+"dealURL": "https://store.steampowered.com/app/1515210/The_Past_Within/
+",
+"tags": ["puzzle", "asym co-op", "communication-heavy"]
+}
+]

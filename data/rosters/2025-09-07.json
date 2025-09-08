@@ -1,65 +1,74 @@
 [
   {
-    "title": "Metro 2033 Redux",
+    "title": "Caput Mortum",
     "night": "Sunday",
     "type": "solo",
-    "priceEUR": 19.99,
-    "deal": "Steam €19.99",
-    "dealURL": "https://store.steampowered.com/app/286690/Metro_2033_Redux/",
-    "tags": ["story shooter", "survival-horror", "atmospheric", "singleplayer", "linear"]
+    "priceEUR": 11.99,
+    "deal": "Steam €11.99",
+    "dealURL": "https://store.steampowered.com/app/1694010/Caput_Mortum/",
+    "tags": ["first-person", "medieval horror", "survival-horror", "puzzle"]
   },
   {
-    "title": "The Cabin Factory",
+    "title": "Grunn",
     "night": "Monday",
     "type": "solo",
-    "priceEUR": 2.24,
-    "deal": "Steam €2.24 (promo)",
-    "dealURL": "https://store.steampowered.com/app/3311740/The_Cabin_Factory/",
-    "tags": ["psychological-horror", "short", "minimalist", "anomaly-hunt", "atmospheric"]
+    "priceEUR": 14.99,
+    "deal": "Steam €14.99",
+    "dealURL": "https://store.steampowered.com/app/1797040/Grunn/",
+    "tags": ["puzzle", "survival-horror", "atmospheric", "quiet"]
   },
   {
-    "title": "Escape Simulator",
+    "title": "Outer Terror",
     "night": "Thursday",
-    "type": "solo",
-    "priceEUR": 16.99,
-    "deal": "Steam €16.99",
-    "dealURL": "https://store.steampowered.com/app/1435790/Escape_Simulator/",
-    "tags": ["puzzle", "escape-room", "solo-friendly", "light", "q&a-friendly"]
+    "type": "co-op",
+    "priceEUR": 14.99,
+    "deal": "Steam €14.99",
+    "dealURL": "https://store.steampowered.com/app/1744890/Outer_Terror/",
+    "tags": ["bullet-hell", "co-op", "roguelike", "horror-action"]
   },
   {
-    "title": "Alan Wake's American Nightmare",
-    "night": "Bench",
-    "type": "solo",
-    "priceEUR": 8.79,
-    "deal": "Steam €8.79",
-    "dealURL": "https://store.steampowered.com/app/202750/Alan_Wakes_American_Nightmare/",
-    "tags": ["thriller", "horror-action", "third-person shooter", "story-rich"]
-  },
-  {
-    "title": "Stories Untold",
-    "night": "Bench",
-    "type": "solo",
-    "priceEUR": 9.75,
-    "deal": "Steam €9.75",
-    "dealURL": "https://store.steampowered.com/app/558420/Stories_Untold/",
-    "tags": ["horror", "text-adventure", "anthology", "puzzle", "short"]
-  },
-  {
-    "title": "JANITOR BLEEDS",
-    "night": "Bench",
-    "type": "solo",
-    "priceEUR": 12.99,
-    "deal": "Steam €12.99",
-    "dealURL": "https://store.steampowered.com/app/1552310/JANITOR_BLEEDS/",
-    "tags": ["horror", "puzzle", "retro-arcade", "short"]
-  },
-  {
-    "title": "SIGNALIS",
+    "title": "Crying Is Not Enough",
     "night": "Bench",
     "type": "solo",
     "priceEUR": 19.99,
     "deal": "Steam €19.99",
-    "dealURL": "https://store.steampowered.com/app/1262350/SIGNALIS/",
-    "tags": ["survival-horror", "sci-fi", "story-rich", "retro-aesthetic"]
+    "dealURL": "https://store.steampowered.com/app/811010/Crying_Is_Not_Enough/",
+    "tags": ["third-person", "survival-horror", "story-shooter"]
+  },
+  {
+    "title": "Deadbolt",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 9.99,
+    "deal": "Steam €9.99",
+    "dealURL": "https://store.steampowered.com/app/265280/Deadbolt/",
+    "tags": ["stealth-action", "horror", "side-scroller"]
+  },
+  {
+    "title": "Filthbreed",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 0,
+    "deal": "Free (itch.io)",
+    "dealURL": "https://compound.street/horror-discussion/compiled.html", 
+    "tags": ["demo", "first-person", "cult-horror", "experimental"]
+  },
+  {
+    "title": "P.A.M.E.L.A.",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 19.99,
+    "deal": "Steam €19.99",
+    "dealURL": "https://store.steampowered.com/app/329070/PAMELA/",
+    "tags": ["open-world", "survival-horror", "sci-fi"]
+  },
+  {
+    "title": "Gloomwood",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 19.99,
+    "deal": "Steam €19.99 (Early Access)",
+    "dealURL": "https://store.steampowered.com/app/1215990/Gloomwood/",
+    "tags": ["stealth-horror", "neo-Victorian", "exploration"]
   }
 ]

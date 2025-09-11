@@ -5,7 +5,7 @@
     "type": "solo",
     "priceEUR": 11.99,
     "deal": "Steam €11.99",
-    "dealURL": "https://store.steampowered.com/app/1694010/Caput_Mortum/",
+    "dealURL": "https://store.steampowered.com/app/3651330/Caput_Mortum_Demo/",
     "tags": ["first-person", "medieval horror", "survival-horror", "puzzle"]
   },
   {
@@ -14,7 +14,7 @@
     "type": "solo",
     "priceEUR": 14.99,
     "deal": "Steam €14.99",
-    "dealURL": "https://store.steampowered.com/app/1797040/Grunn/",
+    "dealURL": "https://store.steampowered.com/app/2720950/Grunn/",
     "tags": ["puzzle", "survival-horror", "atmospheric", "quiet"]
   },
   {
@@ -23,7 +23,7 @@
     "type": "co-op",
     "priceEUR": 14.99,
     "deal": "Steam €14.99",
-    "dealURL": "https://store.steampowered.com/app/1744890/Outer_Terror/",
+    "dealURL": "https://store.steampowered.com/app/2189860/Outer_Terror/",
     "tags": ["bullet-hell", "co-op", "roguelike", "horror-action"]
   },
   {
@@ -32,7 +32,7 @@
     "type": "solo",
     "priceEUR": 19.99,
     "deal": "Steam €19.99",
-    "dealURL": "https://store.steampowered.com/app/811010/Crying_Is_Not_Enough/",
+    "dealURL": "https://store.steampowered.com/app/850690/Crying_is_not_Enough_Remastered/",
     "tags": ["third-person", "survival-horror", "story-shooter"]
   },
   {
@@ -41,17 +41,8 @@
     "type": "solo",
     "priceEUR": 9.99,
     "deal": "Steam €9.99",
-    "dealURL": "https://store.steampowered.com/app/265280/Deadbolt/",
+    "dealURL": "https://store.steampowered.com/app/394970/DEADBOLT/",
     "tags": ["stealth-action", "horror", "side-scroller"]
-  },
-  {
-    "title": "Filthbreed",
-    "night": "Bench",
-    "type": "solo",
-    "priceEUR": 0,
-    "deal": "Free (itch.io)",
-    "dealURL": "https://compound.street/horror-discussion/compiled.html", 
-    "tags": ["demo", "first-person", "cult-horror", "experimental"]
   },
   {
     "title": "P.A.M.E.L.A.",
@@ -59,7 +50,7 @@
     "type": "solo",
     "priceEUR": 19.99,
     "deal": "Steam €19.99",
-    "dealURL": "https://store.steampowered.com/app/329070/PAMELA/",
+    "dealURL": "https://store.steampowered.com/app/427880/PAMELA/",
     "tags": ["open-world", "survival-horror", "sci-fi"]
   },
   {
@@ -68,7 +59,7 @@
     "type": "solo",
     "priceEUR": 19.99,
     "deal": "Steam €19.99 (Early Access)",
-    "dealURL": "https://store.steampowered.com/app/1215990/Gloomwood/",
+    "dealURL": "https://store.steampowered.com/app/1150760/Gloomwood/",
     "tags": ["stealth-horror", "neo-Victorian", "exploration"]
   }
 ]

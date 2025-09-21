@@ -1,74 +1,82 @@
 [
-  {
-    "title": "Deus Ex: Human Revolution - Director’s Cut",
-    "night": "Sunday",
-    "type": "solo",
-    "priceEUR": 2.99,
-    "deal": "Steam Sale −85%",
-    "dealURL": "https://store.steampowered.com/app/238010/Deus_Ex_Human_Revolution__Directors_Cut/",
-    "tags": ["cinematic-action", "stealth", "story-rich", "immersive"]
-  },
-  {
-    "title": "Black Mesa",
-    "night": "Monday",
-    "type": "solo",
-    "priceEUR": 19.99,
-    "deal": "Steam €19.99",
-    "dealURL": "https://store.steampowered.com/app/362890/Black_Mesa/",
-    "tags": ["sci-fi shooter", "classic remake", "action", "environmental"]
-  },
-  {
-    "title": "The Guest (Demo)",
-    "night": "Thursday",
-    "type": "solo",
-    "priceEUR": 0,
-    "deal": "Free Demo",
-    "dealURL": "https://store.steampowered.com/app/1661820/The_Guest_Demo/",
-    "tags": ["mystery", "atmospheric", "puzzle", "solo"]
-  },
-  {
-    "title": "RoboCop: Rogue City",
-    "night": "Bench",
-    "type": "solo",
-    "priceEUR": 9.99,
-    "deal": "Steam Sale €9.99",
-    "dealURL": "https://store.steampowered.com/app/1041220/RoboCop_Rogue_City/",
-    "tags": ["action-shooter", "licensed", "polished", "gunplay"]
-  },
-  {
-    "title": "System Shock (Remake)",
-    "night": "Bench",
-    "type": "solo",
-    "priceEUR": 17.99,
-    "deal": "Steam Sale €17.99",
-    "dealURL": "https://store.steampowered.com/app/1222670/System_Shock_Remake/",
-    "tags": ["horror-action", "sci-fi", "immersive", "thriller"]
-  },
-  {
-    "title": "Beyond Good & Evil",
-    "night": "Bench",
-    "type": "solo",
-    "priceEUR": 3.34,
-    "deal": "Steam Sale €3.34",
-    "dealURL": "https://store.steampowered.com/app/240/Beyond_Good__Evil/",
-    "tags": ["story-adventure", "puzzle", "action", "classic"]
-  },
-  {
-    "title": "Max Payne 3",
-    "night": "Bench",
-    "type": "solo",
-    "priceEUR": 5.99,
-    "deal": "Steam Sale €5.99",
-    "dealURL": "https://store.steampowered.com/app/214680/Max_Payne_3/",
-    "tags": ["action", "gunplay", "cinematic", "shooter"]
-  },
-  {
-    "title": "Rogue Legacy 2",
-    "night": "Bench",
-    "type": "solo",
-    "priceEUR": 14.99,
-    "deal": "Steam Sale €14.99",
-    "dealURL": "https://store.steampowered.com/app/1882080/Rogue_Legacy_2/",
-    "tags": ["action", "rogue-lite", "stylized", "fast-paced"]
-  }
+{
+"title": "Wolfenstein: The Old Blood",
+"night": "Sunday",
+"type": "solo",
+"priceEUR": 19.99,
+"deal": "Steam €19.99",
+"dealURL": "https://store.steampowered.com/app/350080/Wolfenstein_The_Old_Blood/
+",
+"tags": ["cinematic", "story shooter", "action", "singleplayer"]
+},
+{
+"title": "ABZU",
+"night": "Monday",
+"type": "solo",
+"priceEUR": 19.99,
+"deal": "Steam €19.99",
+"dealURL": "https://store.steampowered.com/app/384190/ABZU/
+",
+"tags": ["chill", "short", "exploration", "underwater"]
+},
+{
+"title": "Portal Stories: Mel (Free Mod)",
+"night": "Thursday",
+"type": "solo",
+"priceEUR": 0,
+"deal": "Steam Free",
+"dealURL": "https://store.steampowered.com/app/317400/Portal_Stories_Mel/
+",
+"tags": ["puzzle", "solo", "portal-like", "q&a-friendly"]
+},
+{
+"title": "Dishonored",
+"night": "Bench",
+"type": "solo",
+"priceEUR": 9.99,
+"deal": "Steam €9.99",
+"dealURL": "https://store.steampowered.com/app/205100/Dishonored/
+",
+"tags": ["immersive sim", "stealth-action", "story-rich"]
+},
+{
+"title": "INSIDE",
+"night": "Bench",
+"type": "solo",
+"priceEUR": 19.99,
+"deal": "Steam €19.99",
+"dealURL": "https://store.steampowered.com/app/304430/INSIDE/
+",
+"tags": ["story puzzle", "atmospheric", "one-sitting"]
+},
+{
+"title": "Vanquish",
+"night": "Bench",
+"type": "solo",
+"priceEUR": 19.99,
+"deal": "Steam €19.99",
+"dealURL": "https://store.steampowered.com/app/460810/Vanquish/
+",
+"tags": ["action", "shooter", "stylish", "fast-paced"]
+},
+{
+"title": "Resident Evil 5 (Gold Edition)",
+"night": "Bench",
+"type": "solo",
+"priceEUR": 19.99,
+"deal": "Steam €19.99",
+"dealURL": "https://store.steampowered.com/app/21690/Resident_Evil_5/
+",
+"tags": ["horror-action", "third-person", "campaign"]
+},
+{
+"title": "F.E.A.R. 2: Project Origin",
+"night": "Bench",
+"type": "solo",
+"priceEUR": 14.99,
+"deal": "Steam €14.99",
+"dealURL": "https://store.steampowered.com/app/16450/FEAR_2_Project_Origin/
+",
+"tags": ["horror shooter", "story", "singleplayer"]
+}
 ]

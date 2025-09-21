@@ -1,0 +1,76 @@
+{
+  "roster": [
+    {
+      "title": "Song of Horror",
+      "night": "Sunday",
+      "type": "solo",
+      "priceEUR": 7.97,
+      "deal": "Steam key / G2A price",
+      "dealURL": null,
+      "tags": ["cinematic horror", "episodic", "psychological"]
+    },
+    {
+      "title": "Little Nightmares II",
+      "night": "Monday",
+      "type": "solo",
+      "priceEUR": 10.07,
+      "deal": "Steam sale / key price",
+      "dealURL": null,
+      "tags": ["atmospheric horror", "puzzle", "short segments"]
+    },
+    {
+      "title": "Dark Hours: Prologue",
+      "night": "Thursday",
+      "type": "co-op", 
+      "priceEUR": 0,
+      "deal": "Free prologue demo",
+      "dealURL": "https://store.steampowered.com/app/3064370/Dark_Hours_Prologue/",
+      "tags": ["survival horror", "co‑op demo", "escape / hide"]
+    },
+    {
+      "title": "WORLD OF HORROR",
+      "night": "Bench",
+      "type": "solo",
+      "priceEUR": 17.39,
+      "deal": "GOG price",
+      "dealURL": null,
+      "tags": ["cosmic horror", "turn‑based", "roguelite"]
+    },
+    {
+      "title": "Vampire: The Masquerade — Bloodlines",
+      "night": "Bench",
+      "type": "solo",
+      "priceEUR": 12.95,
+      "deal": "key / resale price",
+      "dealURL": null,
+      "tags": ["story RPG", "gothic", "narrative depth"]
+    },
+    {
+      "title": "Sally Face",
+      "night": "Bench",
+      "type": "solo",
+      "priceEUR": 14.99,
+      "deal": "GOG price",
+      "dealURL": null,
+      "tags": ["dark mystery", "episodic", "narrative horror"]
+    },
+    {
+      "title": "F.E.A.R. 3",
+      "night": "Bench",
+      "type": "solo",
+      "priceEUR": 8.95,
+      "deal": "key / resale price",
+      "dealURL": null,
+      "tags": ["horror shooter", "action", "psychic horror"]
+    },
+    {
+      "title": "The Stairway 7: Anomaly Hunt Loop",
+      "night": "Bench",
+      "type": "solo",
+      "priceEUR": 8.99,
+      "deal": "Fanatical listing",
+      "dealURL": null,
+      "tags": ["loop horror", "clue / investigation", "short sessions"]
+    }
+  ]
+}

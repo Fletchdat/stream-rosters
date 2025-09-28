@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Spec Ops: The Line",
+    "night": "Sunday",
+    "type": "solo",
+    "priceEUR": 19.99,
+    "deal": "Steam €19.99",
+    "dealURL": "https://store.steampowered.com/app/50300/Spec_Ops_The_Line/",
+    "tags": ["cinematic", "shooter", "story-rich", "third-person"]
+  },
+  {
+    "title": "The Flame in the Flood",
+    "night": "Monday",
+    "type": "solo",
+    "priceEUR": 14.99,
+    "deal": "Steam €14.99",
+    "dealURL": "https://store.steampowered.com/app/318600/The_Flame_in_the_Flood/",
+    "tags": ["survival", "chill", "short-session", "indie"]
+  },
+  {
+    "title": "The Turing Test",
+    "night": "Thursday",
+    "type": "solo",
+    "priceEUR": 19.99,
+    "deal": "Steam €19.99",
+    "dealURL": "https://store.steampowered.com/app/499520/The_Turing_Test/",
+    "tags": ["puzzle", "first-person", "narrative", "sci-fi"]
+  },
+  {
+    "title": "Binary Domain",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 14.99,
+    "deal": "Steam €14.99",
+    "dealURL": "https://store.steampowered.com/app/203750/Binary_Domain/",
+    "tags": ["sci-fi shooter", "story", "third-person", "action"]
+  },
+  {
+    "title": "Alan Wake's American Nightmare",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 9.99,
+    "deal": "Steam €9.99",
+    "dealURL": "https://store.steampowered.com/app/202750/Alan_Wakes_American_Nightmare/",
+    "tags": ["action", "thriller", "story", "horror-lite"]
+  },
+  {
+    "title": "SOMA",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 5.99,
+    "deal": "GOG Sale €5.99",
+    "dealURL": "https://www.gog.com/en/game/soma",
+    "tags": ["psychological horror", "narrative", "sci-fi", "atmospheric"]
+  },
+  {
+    "title": "Vanquish",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 19.99,
+    "deal": "Steam €19.99",
+    "dealURL": "https://store.steampowered.com/app/460810/Vanquish/",
+    "tags": ["shooter", "stylized", "fast-paced", "third-person"]
+  },
+  {
+    "title": "The Spectrum Retreat (Demo)",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 0,
+    "deal": "Free Demo",
+    "dealURL": "https://store.steampowered.com/app/718850/The_Spectrum_Retreat/",
+    "tags": ["puzzle", "narrative", "first-person", "indie"]
+  }
+]

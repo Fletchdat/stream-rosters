@@ -1,0 +1,54 @@
+{
+  "scheduled": [
+    {
+      "title": "Wolfenstein II: The New Colossus",
+      "dealURL": "https://www.eneba.com/steam-wolfenstein-ii-the-new-colossus-deluxe-edition-steam-key-global/ready2play?product=digital&currency=USD",
+      "now_price": 9.50,
+      "historical_low": "≈ €8.88 (‑83 % bundle) on Nov 2018" 
+    },
+    {
+      "title": "Ready or Not",
+      "dealURL": "https://www.instant-gaming.com/en/2075-buy-ready-or-not-pc-game-steam-europe-and-us-and-canada/?currency=USD",
+      "now_price": 25.34,
+      "historical_low": "≈ €15.99 on GameBillet (all‑time low) :contentReference[oaicite:0]{index=0}"
+    },
+    {
+      "title": "Resident Evil Village (Gold Edition)",
+      "dealURL": "https://www.eneba.com/steam-resident-evil-village-resident-evil-8-gold-edition-pc-steam-key-united-states/keyinstantdelivery?product=digital&currency=USD",
+      "now_price": 14.08,
+      "historical_low": null
+    }
+  ],
+  "bench": [
+    {
+      "title": "Among Us",
+      "dealURL": "https://www.instant-gaming.com/en/7522-buy-among-us-pc-game-steam/?currency=USD&srsltid=AfmBOorheVqjp4Ub-nomkRXjVPbOW9WMlfDQW4Opyyi4k6ljcc0qXXgKzg4Opyyi4k6ljcc0qXXgKzg4Opyyi4k6ljcc0qXXgKzg4",
+      "now_price": 3.39,
+      "historical_low": null
+    },
+    {
+      "title": "Wolfenstein II: The New Colossus (duplicate “Deluxe / base”)",
+      "dealURL": "https://www.eneba.com/steam-wolfenstein-ii-the-new-colossus-deluxe-edition-steam-key-global/ready2play?product=digital&currency=USD",
+      "now_price": 9.50,
+      "historical_low": "≈ €8.88 (‑83 % bundle) on Nov 2018"
+    },
+    {
+      "title": "Call of Duty: Black Ops (PC Steam)",
+      "dealURL": "https://www.g2a.com/call-of-duty-black-ops-pc-steam-account-global-i10000005389022?___currency=USD&___language=en",
+      "now_price": 16.02,
+      "historical_low": null
+    },
+    {
+      "title": "Ready or Not (duplicate)",
+      "dealURL": "https://www.instant-gaming.com/en/2075-buy-ready-or-not-pc-game-steam-europe-and-us-and-canada/?currency=USD",
+      "now_price": 25.34,
+      "historical_low": "≈ €15.99 on GameBillet (all‑time low)"
+    },
+    {
+      "title": "Killing Floor 3",
+      "dealURL": "https://www.gamestop.com/pc-gaming/pc-games/products/killing-floor-3---pc-steam/422342.html",
+      "now_price": 39.99,
+      "historical_low": null
+    }
+  ]
+}

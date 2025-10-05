@@ -1,4 +1,5 @@
-{
+[
+  {
   "scheduled": [
     {
       "title": "Wolfenstein II: The New Colossus",
@@ -49,6 +50,5 @@
       "dealURL": "https://www.gamestop.com/pc-gaming/pc-games/products/killing-floor-3---pc-steam/422342.html",
       "now_price": 39.99,
       "historical_low": null
-    }
-  ]
-}
+   }
+]

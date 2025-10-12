@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Alan Wake",
+    "night": "Sunday",
+    "type": "solo",
+    "priceEUR": 12.99,
+    "deal": "Steam €12.99",
+    "dealURL": "https://store.steampowered.com/app/108710/Alan_Wake/",
+    "tags": ["cinematic", "story-driven", "horror-action", "third-person", "YouTube-moments"]
+  },
+  {
+    "title": "DOOM (2016)",
+    "night": "Monday",
+    "type": "solo",
+    "priceEUR": 19.99,
+    "deal": "Steam €19.99",
+    "dealURL": "https://store.steampowered.com/app/379720/DOOM/",
+    "tags": ["FPS", "fast-paced", "action", "high-energy", "clip-friendly"]
+  },
+  {
+    "title": "Black Mesa",
+    "night": "Thursday",
+    "type": "solo",
+    "priceEUR": 19.50,
+    "deal": "Steam €19.50",
+    "dealURL": "https://store.steampowered.com/app/362890/Black_Mesa/",
+    "tags": ["story-FPS", "remake", "narrative", "sci-fi", "nostalgia"]
+  },
+  {
+    "title": "Metro 2033 Redux",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 19.99,
+    "deal": "Steam €19.99",
+    "dealURL": "https://store.steampowered.com/app/286690/Metro_2033_Redux/",
+    "tags": ["survival-shooter", "story-driven", "atmospheric", "stealth"]
+  },
+  {
+    "title": "Call of Juarez: Gunslinger",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 12.49,
+    "deal": "Steam €12.49",
+    "dealURL": "https://store.steampowered.com/app/204450/Call_of_Juarez_Gunslinger/",
+    "tags": ["FPS", "western", "narration", "arcade-shooting", "short-and-sweet"]
+  },
+  {
+    "title": "Bright Memory",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 6.59,
+    "deal": "Steam €6.59",
+    "dealURL": "https://store.steampowered.com/app/955050/Bright_Memory/",
+    "tags": ["cinematic", "FPS+melee", "short", "flashy", "tech-showcase"]
+  },
+  {
+    "title": "DUSK",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 19.49,
+    "deal": "Steam €19.49",
+    "dealURL": "https://store.steampowered.com/app/519860/DUSK/",
+    "tags": ["retro-FPS", "boomer-shooter", "skillful", "speedrun-friendly"]
+  },
+  {
+    "title": "The Evil Within",
+    "night": "Bench",
+    "type": "solo",
+    "priceEUR": 19.99,
+    "deal": "Steam €19.99",
+    "dealURL": "https://store.steampowered.com/app/268050/The_Evil_Within/",
+    "tags": ["survival-horror", "cinematic", "third-person", "set-piece"]
+  }
+]
